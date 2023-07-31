@@ -3,6 +3,10 @@
     {
       "source": "/:match*",
       "destination": "/api"
+    },
+    {
+      "source": "/",
+      "destination": "/api"
     }
   ]
 }
