@@ -4,6 +4,6 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
   return res.json({
     query: req.query,
     body: req.body,
-    req: req
+    url: req.url,
   })
 }
