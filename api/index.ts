@@ -2,7 +2,7 @@ import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { get } from "@vercel/edge-config";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  const baseUrl = (await get("host")) || ("https://example.com" as string);
+  const baseUrl = (await get("host")) || ("https://example.com/" as string);
 
   const headers = new Headers();
   headers.set("original-host", req.headers.host || "vercel.app");
