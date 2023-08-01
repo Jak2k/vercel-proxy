@@ -7,5 +7,6 @@
   },
   "dependencies": {
     "@vercel/edge-config": "^0.2.1"
-  }
+  },
+  "type": "module"
 }
