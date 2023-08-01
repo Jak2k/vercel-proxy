@@ -1,7 +1,0 @@
-{
-  "compilerOptions": {
-    "module": "Node16",
-    "target": "ES6",
-    "esModuleInterop": true
-  }
-}
